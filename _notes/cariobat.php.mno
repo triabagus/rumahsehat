@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:kd_obat;datatype:int,name:nm_obat;datatype:string,name:jenis_obat;datatype:string,name:kategori;datatype:string,name:harga;datatype:int,name:jumlah;datatype:int,name:ket;datatype:blob,name:image;datatype:string" />
+</info>

@@ -1,0 +1,95 @@
+
+body {
+    font-family: "Lato", sans-serif;
+	margin:0px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+	font-size:15px;
+	border-radius:5px;
+    padding: 7px 13px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[disabled], input[readonly]{
+    cursor: not-allowed;
+	font-size:15px;
+    background-color: #eee;
+}
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	font-size:18px;	
+}
+.btn:hover{
+	background-color:rgba(76, 175, 80, 0.89);
+	}
+	
+a{
+	text-decoration:none;
+	
+}
+.judul{
+	font-size:20px;	
+}
+
+.daftarbtn {
+    
+    padding: 12px 20px;
+    background-color: #2196F3;
+	color:#fff;
+	text-decoration:none;
+	width:100%;
+}
+
+.daftarbtn:hover{
+	background-color:rgba(33, 150, 243, 0.89);
+	}
+	
+	.cancelbtn {
+	color:#fff;
+	text-decoration:none;
+	width:100%;
+    padding: 25px 0px 10px 0px;
+    background-color: #f44336;
+}
+.cancelbtn:hover {
+	color:#fff;
+    background-color: rgba(244, 67, 54, 0.80);
+}
+.modal {
+    width: 100%; 
+    height: 100%; 
+    background-color: #9e9e9e; 
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 0px solid #888;
+    width: 80%;
+	border-radius:7px;
+}
+
+.con{
+    padding: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
